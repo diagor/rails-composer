@@ -717,7 +717,7 @@ if prefer :templates, 'slim'
   gem 'slim', '>= 1.3.5'
   gem 'haml2slim', '>= 0.4.6', :group => :development
   # Haml is needed for conversion of HTML to Slim
-  gem 'haml', '>= 3.1.6', :group => :development
+  gem 'haml', '= 3.1.8', :group => :development
   gem 'haml-rails', '>= 0.3.5', :group => :development
   gem 'hpricot', '>= 0.8.6', :group => :development
   gem 'ruby_parser', '>= 3.1.1', :group => :development

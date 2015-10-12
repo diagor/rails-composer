@@ -702,7 +702,7 @@ unless File.open('Gemfile').lines.any?{|line| line.include?('pg')}
   gem 'pg', '>= 0.14.1' if prefer :database, 'postgresql'
 end
 unless File.open('Gemfile').lines.any?{|line| line.include?('mysql2')}
-  gem 'mysql2', '>= 0.3.11' if prefer :database, 'mysql'
+  gem 'mysql2', '~> 0.3.18' if prefer :database, 'mysql'
 end
 
 ## Template Engine
